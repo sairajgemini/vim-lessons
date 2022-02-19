@@ -10,4 +10,3 @@ without saving if we undo all actions together in VI/VIM then press :e! to rever
 
 without saving all changes if we want to close VI editor, then use command :q!
 
-
