@@ -1,3 +1,13 @@
 This is a demo text file
 
-Added new line
+Added new line and saved/exited with "ZZ" command
+
+New line added and saved edit with "ex" command
+
+Note: The ex mode is an extension of command mode. To get into it, press Esc and then : (the colon). The cursor will go to the bottom of the screen at a colon prompt. Write your file by entering :w and quit by entering :q. You can combine these to save and exit by entering :wq. However, if you're finished with your file, it's generally more convenient to type Shift-z-z from command mode.
+
+without saving if we undo all actions together in VI/VIM then press :e! to revert to the oldest change.
+
+without saving all changes if we want to close VI editor, then use command :q!
+
+
